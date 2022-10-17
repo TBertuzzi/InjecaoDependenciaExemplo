@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Ciclos de Vida";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Ciclos de Vida</h2>
+   
+     <h4 class="display-4">Operações de Controller</h4>
+     <table>
+         <tr>
+            <td style="font-weight: bold;">
+                 Transient
+             </td>
+             <td>
+                @ViewBag.Transient.ExemploId
+             </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Scoped
+            </td>
+            <td>
+                @ViewBag.Scoped.ExemploId
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Singleton
+            </td>
+            <td>
+                @ViewBag.Singleton.ExemploId
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Instance
+            </td>
+            <td>
+                @ViewBag.SingletonInstance.ExemploId
+            </td>
+        </tr>
+     </table>
+    <h4 class="display-4">Operações de Service</h4>
+    <table>
+        <tr>
+            <td style="font-weight: bold;">
+                Transient
+            </td>
+            <td>
+                @ViewBag.Service.TransientExemplo.ExemploId
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Scoped
+            </td>
+            <td>
+                @ViewBag.Service.ScopedExemplo.ExemploId
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Singleton
+            </td>
+            <td>
+                @ViewBag.Service.SingletonExemplo.ExemploId
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Instance
+            </td>
+            <td>
+                @ViewBag.Service.SingletonInstanceExemplo.ExemploId
+            </td>
+        </tr>
+    </table>
+</div>
