@@ -11,6 +11,10 @@
 
 * Singleton objects : são os mesmos para cada objeto e cada solicitação.
 
+Exemplo:
+
+![Cilo de vida](https://github.com/TBertuzzi/InjecaoDependenciaExemplo/blob/main/Resources/Exemplo.jpg?raw=true)
+
 Ciclo de vida :
 
 ![Cilo de vida](https://github.com/TBertuzzi/InjecaoDependenciaExemplo/blob/main/Resources/LifeTime.jpg?raw=true)
